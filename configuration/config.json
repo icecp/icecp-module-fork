@@ -1,0 +1,4 @@
+{
+  "incoming-channel" : "/FORK-DATA",
+  "message-filter" : "$.sensoridentifier"
+}
