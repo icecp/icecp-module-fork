@@ -27,13 +27,11 @@ Clone this repository and run `mvn install`
 
 Load this module using the icecp-tools CLI with: (see icecp-tools repo for more information on using the icecp-tools CLI to load modules)
 
-`./icecp-cli load -cmd loadAndStartModules -uri ndn:/intel/node/{hostname} -moduleUri file:///{module path}/target/icecp-module-fork-0.1.2-jar-with-dependencies.jar -configUri file:///{module path}/configuration/config.json -D uri=ndn-lab2.jf.intel.com`
+`./icecp-cli load -cmd loadAndStartModules -uri ndn:/intel/node/{hostname} -moduleUri file:///{module path}/target/icecp-module-fork-*-jar-with-dependencies.jar -configUri file:///{module path}/configuration/config.json -D uri=[hostname of nfd]`
 
 ### Documentation
 
- - [Javadoc](https://github.intel.com/pages/iSPA/icecp-module-fork/)
-
-
+ - [Javadoc](https://icecp.github.io/icecp-module-fork/)
 
 ### License
 
